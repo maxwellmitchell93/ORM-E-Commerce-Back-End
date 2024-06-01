@@ -26,7 +26,7 @@ ProductTag.init(
         key: "id"
       }
     }
-    // define columns
+    // define the columns
   },
   {
     sequelize,
