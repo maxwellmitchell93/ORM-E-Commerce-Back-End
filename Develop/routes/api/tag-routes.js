@@ -13,8 +13,8 @@ router.get('/', async (req, res) => {
     console.log(error);
     res.status(500).json(error);
   }
-  // find all tags
-  // be sure to include its associated Product data
+  // find all the tags
+  // include its associated Product data
 });
 
 router.get('/:id', async (req, res) => {
